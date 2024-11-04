@@ -22,6 +22,6 @@ buttonEl.addEventListener("click", function() {
     inputEl.value = `0`
 
     convLength.textContent = `${baseValue} meters = ${convMtoF.toFixed(3)} feet | ${baseValue} feet = ${convFtoM.toFixed(3)} meters`
-    convVolume.textContent = `${baseValue} liters = ${convLtoG.toFixed(3)} galoons | ${baseValue} feet = ${convGtoL.toFixed(3)} liters`
+    convVolume.textContent = `${baseValue} liters = ${convLtoG.toFixed(3)} galoons | ${baseValue} galoons = ${convGtoL.toFixed(3)} liters`
     convMass.textContent = `${baseValue} kilos = ${convKtoP.toFixed(3)} pounds | ${baseValue} pounds = ${convPtoK.toFixed(3)} kilos`
 })
